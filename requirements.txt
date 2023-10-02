@@ -6,4 +6,4 @@ streamlit-aggrid==0.3.3
 streamlit-option-menu==0.3.2
 snowflake-connector-python==2.8.3
 SQLAlchemy==2.0.2
-psycopg2==2.9.5
+psycopg2-binary==2.9.8
