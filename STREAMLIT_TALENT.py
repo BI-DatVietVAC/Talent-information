@@ -21,7 +21,7 @@ from pandas.api.types import (
     is_object_dtype,
 )
 
-postgres_uri = "postgresql://bi:NRy55npJ3XU56mSf3HyW@171.244.29.169:22346/vac"
+postgres_uri = st.secrets['database']['postgres_uri']
 
 
 def nan_to_null(f,
